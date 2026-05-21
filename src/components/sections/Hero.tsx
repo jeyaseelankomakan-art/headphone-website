@@ -23,7 +23,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-mono text-[11px] uppercase tracking-[0.45em] text-neon-cyan/90 mb-6"
         >
-          Next-Gen AI Audio · 2026
+          
         </motion.div>
 
         <motion.h1
@@ -32,8 +32,8 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.4 }}
           className="text-[clamp(3rem,12vw,9rem)] leading-[0.95] font-light tracking-tight"
         >
-          <span className="block text-white/95">Hear The</span>
-          <span className="block text-gradient-neon font-medium text-glow-cyan">Future</span>
+          <span className="block text-white/95"></span>
+          <span className="block text-gradient-neon font-medium text-glow-cyan"></span>
         </motion.h1>
 
         <motion.p
@@ -53,10 +53,10 @@ export function Hero() {
           className="mt-10 flex items-center justify-center gap-4"
         >
           <NeonButton variant="primary" size="lg">
-            Pre-Order · $899
+            
           </NeonButton>
           <NeonButton variant="ghost" size="lg">
-            Watch Film
+            
           </NeonButton>
         </motion.div>
       </div>
